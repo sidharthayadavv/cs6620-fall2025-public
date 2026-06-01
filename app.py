@@ -572,7 +572,7 @@ def auto_load_data():
 
 @app.route('/')
 def hello():
-    return f'''
+    return f'''
     <h1>Hello from Automated CI/CD Pipeline!</h1>
     <p><strong>Version:</strong> 2.0 - Automated Deployment</p>
     <p><strong>Deployed via:</strong> GitHub Actions + AWS SSM</p>
