@@ -571,7 +571,7 @@ def auto_load_data():
             app.logger.error(f"Failed to auto-load CSV: {e}")
 
 
-@app.route('/')
+@app.route('/hello')
 def hello():
     return f'''
     <h1>Hello from Automated CI/CD Pipeline!</h1>
